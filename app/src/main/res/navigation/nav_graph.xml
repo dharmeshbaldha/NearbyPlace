@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/searchNearbyPlaceFragment">
+
+    <fragment
+        android:id="@+id/searchNearbyPlaceFragment"
+        android:name="com.searchnearbylocation.ui.searchNearbyPlace.SearchNearbyPlaceFragment"
+        android:label="@string/page_title_search_nearby_place"
+        tools:layout="@layout/fragment_search_nearby_place">
+        <action
+            android:id="@+id/action_searchNearbyPlaceFragment_to_nearbyLocationListFragment"
+            app:destination="@id/nearbyLocationListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nearbyLocationListFragment"
+        android:name="com.searchnearbylocation.ui.nearbyList.NearbyPlaceListFragment"
+        android:label="@string/page_title_nearby_place_list"
+        tools:layout="@layout/fragment_nearby_location_list">
+        <action
+            android:id="@+id/action_nearbyLocationListFragment_to_nearbyLocationDetailFragment"
+            app:destination="@id/nearbyLocationDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nearbyLocationDetailFragment"
+        android:name="com.searchnearbylocation.ui.nearbyDetail.NearbyPlaceDetailFragment"
+        android:label="fragment_nearby_location_detail"
+        tools:layout="@layout/fragment_nearby_location_detail" />
+</navigation>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DharmeshCodingChallenge</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_place">Search Nearby Place</string>
+    <string name="icon_list_url">%1$sbg_120%2$s</string>
+    <string name="distance">%1$s meters</string>
+    <string name="enter_place_name">Enter value.</string>
+    <string name="get_direction_button">Get Direction</string>
+    <string name="dialog_title_grant_permission">Grant Permissions</string>
+    <string name="dialog_message_require_permission">This app needs permission to use location based feature. You can also grant them in app settings.</string>
+    <string name="snackbar_message_denied_require_permission">Please provide the required permission from App Setting.</string>
+    <string name="general_error_message_something_went_wrong">Something went wrong, please try again later.</string>
+    <string name="formatted_place_address">%1$s ,\n%2$s ,\n%3$s ,\n%4$s ,\n%5$s</string>
+    <string name="detail_place_name_label">Name : </string>
+    <string name="detail_place_open_status_label">Open Status : </string>
+    <string name="detail_place_distance_label">Distance : </string>
+    <string name="detail_place_address_label">Address : </string>
+    <string name="distance_in_meters">%1$s meters</string>
+    <string name="no_place_found_empty_view_label">No nearby searched place found.</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="page_title_search_nearby_place">Search Nearby Place</string>
+    <string name="page_title_nearby_place_list">Nearby Place List</string>
+</resources>
